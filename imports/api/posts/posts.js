@@ -1,0 +1,1 @@
+export const Posts = new TodosCollection('Posts');

@@ -1,1 +1,1 @@
-export const Posts = new TodosCollection('Posts');
+export const Posts = new Meteor.Collection('Posts');

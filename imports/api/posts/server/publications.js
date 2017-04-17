@@ -1,6 +1,6 @@
 import { Meteor } from 'meteor/meteor';
 import { Posts } from '../posts.js';
-
+import {check} from 'meteor/check';
 
 Meteor.publish('posts', () => {
   const selector = {category: {$ne: "private"}};
